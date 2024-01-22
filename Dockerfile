@@ -26,6 +26,6 @@ VOLUME [ "/palworld" ]
 EXPOSE 8211/udp
 EXPOSE 25575/tcp
 
-ADD --chmod=777 servermanager.sh /servermanager.sh
+ADD servermanager.sh /servermanager.sh
 
 CMD ["/servermanager.sh"]
